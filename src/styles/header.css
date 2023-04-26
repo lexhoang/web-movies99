@@ -1,0 +1,30 @@
+.btn-tools {
+    font-size: '8px';
+    text-decoration: "none";
+    color: "white"
+}
+
+/* BTN-LOGIN */
+.btn-login {
+    background: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+    color: #fff;
+    border-radius: 28px;
+    padding: 4px 32px;
+    border: 2px solid #5c246d;
+    animation: button-animation 2s ease-in-out infinite;
+    border: none
+}
+
+@keyframes button-animation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
