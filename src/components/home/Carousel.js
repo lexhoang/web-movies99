@@ -20,7 +20,7 @@ const settings = {
 
 
 function Carousel() {
-    const [imgMovie, setImgMovie] = useState('')
+    // const [imgMovie, setImgMovie] = useState('');
     const [treading, setTreading] = useState([]);
     const getData = async (paramUrl, body) => {
         const response = await fetch(paramUrl, body);
@@ -52,7 +52,8 @@ function Carousel() {
                                     width: "100%",
                                     minHeight: "680px",
                                 }}
-                                    src={`https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/${movie.backdrop_path}`} />
+                                    src={`https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/${movie.backdrop_path}`}
+                                    alt='movie' />
                             </Grid>
 
 
