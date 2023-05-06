@@ -1,0 +1,10 @@
+.MuiPagination-root button {
+  color: white !important;
+  background-color: #2c2540;
+
+}
+
+.Mui-selected {
+  color: #fff;
+  background: linear-gradient(45deg, #00aeff, #a68eff);
+}

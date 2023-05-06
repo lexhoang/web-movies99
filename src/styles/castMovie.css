@@ -1,0 +1,10 @@
+.cast-image {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #000;
+    cursor: pointer;
+    height: 140px;
+    margin-bottom: 5px;
+    object-fit: cover;
+    width: 140px;
+}

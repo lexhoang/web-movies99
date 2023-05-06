@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import { Grid } from "@mui/material";
 import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import '../../styles/carousel.css'
+import '../../styles/carousel.scss'
 
 const settings = {
     dots: false,
